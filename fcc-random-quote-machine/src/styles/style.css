@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+#wrapper > * {
+}
+#wrapper {
+  height: 100vh;
+  background-image: "";
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s;
+}
+#quote-box {
+  background-color: whitesmoke;
+  padding: 3vw;
+  border-radius: 5px;
+
+  width: 80vw;
+  -webkit-box-shadow: 5px 5px 35px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 35px 0px rgba(0, 0, 0, 0.5);
+}
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover,
+.btn:visited {
+  outline: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+#text {
+  font-size: 56px;
+  font-family: "Indie Flower", cursive;
+}
+#author {
+  text-align: right;
+  font-style: italic;
+  font-size: 26px;
+  font-family: "Indie Flower", cursive;
+}
+#new-quote {
+  font-family: "Courier New", Courier, monospace;
+}
+#tweet-quote {
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 42px;
+  margin: 10px;
+  vertical-align: middle;
+  background-color: white;
+}
