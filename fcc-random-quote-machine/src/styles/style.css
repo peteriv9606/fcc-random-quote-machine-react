@@ -51,3 +51,14 @@ body {
   vertical-align: middle;
   background-color: white;
 }
+
+@media only screen and (max-width: 922px) {
+  #text {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #text {
+    font-size: 18px;
+  }
+}
